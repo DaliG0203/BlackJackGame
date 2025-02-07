@@ -43,10 +43,10 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
-    document.getElementById("cardImageThree-el").src = ''
-    document.getElementById("cardImageFour-el").src = ''
-    document.getElementById("cardImageFive-el").src = ''
-    document.getElementById("cardImageSix-el").src = ''
+    document.getElementById("cardImageThree-el").src = 'x'
+    document.getElementById("cardImageFour-el").src = 'x'
+    document.getElementById("cardImageFive-el").src = 'x'
+    document.getElementById("cardImageSix-el").src = 'x'
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
 
