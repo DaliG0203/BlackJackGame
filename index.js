@@ -117,3 +117,4 @@ function newCard() {
 //create a for loop to creat the image by using instring variables to create the ID of the HTML element
 // create betting functionality
 //create dealer too
+//when firstSum = 21 change one A to 1 so that it turns to 12
