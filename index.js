@@ -97,7 +97,7 @@ function renderGame() {
 }
 
 
-function newCardOne() {
+function newCard() {
     if (isAlive === true && hasBlackJack === false) {
         let card = getRandomCard()
         sum += card
